@@ -1,0 +1,58 @@
+/**
+    *Override CSS
+**/
+
+.bg-light {
+    background-color: rgb(100, 175, 194)!important;
+}
+
+.dropdown-menu li a {
+    cursor: default!important;
+}
+
+.container {
+    height: 85vh;
+    overflow-y: auto;
+}
+
+/**
+    *Scrollbar
+**/
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track:hover {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(148, 148, 148);
+    border-radius: 10px;
+}
+
+/**
+    *Global CSS
+**/
+.margin-top-30 {
+    margin-top: 80px;
+}
+
+input[type="radio"]{
+    margin: 0 2px 0 12px;
+}
+
+.address-text{
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #6e6e6e;
+}
+
+
